@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2vh;
+    
+    
+    .item {
+       display: flex;
+       width: 20%;
+       aspect-ratio: 2.5 / 1;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       color: white;
+       text-transform: uppercase;
+       
+       
+    }
+
+    .rectangle1, .rectangle4, .rectangle7, .rectangle10 {
+        background-color: orange;
+    }
+
+    .rectangle2, .rectangle5, .rectangle9, .rectangle14 {
+        background-color: blue;
+    } 
+
+    .rectangle3, .rectangle6, .rectangle12 {
+        background-color: red;
+    }
+
+    .rectangle8, .rectangle11, .rectangle13 {
+        background-color: green;
+
+    
+    }
+
+    .rectangle3, .rectangle5, .rectangle7, .rectangle10 {
+        font-size: xx-large;
+}
+}
